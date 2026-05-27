@@ -1,0 +1,71 @@
+# Themes directory of example site; ignored so that we can clone the repo
+# inside the themes directory and test the example site with "hugo server".
+exampleSite/themes/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Vim swap files
+*.swp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Hugo's lock
+.hugo_build.lock
+exampleSite/public/
+/public/
+
+# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Additional Ruby/bundler ignore for when you run: bundle install
+/vendor
+
+# Specific ignore for GitHub Pages
+# GitHub Pages will always use its own deployed version of pages-gem
+# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
+# counterproductive to check this file into the repository.
+# Details at https://github.com/github/pages-gem/issues/768
+Gemfile.lock
