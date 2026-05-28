@@ -96,7 +96,7 @@ When `selfHosted = true`, the following assets are served from `static/` instead
 | Font Awesome 7 | `use.fontawesome.com` | `fontawesome/css/*.min.css` |
 | KaTeX CSS | `cdn.jsdelivr.net` | `css/katex.min.css` |
 | KaTeX JS | `cdn.jsdelivr.net` | `js/katex.min.js` + `js/auto-render.min.js` |
-| Google Fonts (Lora, Open Sans) | `fonts.googleapis.com` | `css/fonts.css` + `fonts/` |
+| Google Fonts (Gelasio, Open Sans) | `fonts.googleapis.com` | `css/fonts.css` + `fonts/` |
 | jQuery 4.0.0 | `code.jquery.com` | `js/jquery-4.0.0.slim.min.js` |
 | Bootstrap 5.3.5 JS | `cdn.jsdelivr.net` | `js/bootstrap.min.js` |
 | KaTeX JS | `cdn.jsdelivr.net` | `js/katex.min.js` + `js/auto-render.min.js` |

@@ -4,6 +4,8 @@ DefaultContentLanguage = "en"
 title = "Beautiful Hugo"
 theme = "beautifulhugo"
 enableGitInfo = true
+timeZone = "UTC"
+ignoreFiles = ["content/archive/.*"]
 
 [pagination]
   pagerSize = 5
@@ -23,7 +25,7 @@ enableGitInfo = true
   mainSections = ["post", "recipe"]
   logo = "/img/avatar-icon.png" # Expecting square dimensions
   favicon = "/img/favicon.ico"
-  dateFormat = ":date_long"
+  dateFormat = "2006.02.01"
   commit = false
   rss = true
   readingTime = true
@@ -53,11 +55,19 @@ enableGitInfo = true
   src = "/img/hexagon.jpg"
   desc = "Hexagon"
 
-#[Params.AISearchSummary.Googlebot]
-#summaryLimit = 150
-#[Params.AISearchSummary.robots]
-#summaryLimit = 300
+[Params.AISearchSummary.Googlebot]
+  summaryLimit = 0
+[Params.AISearchSummary.robots]
+  summaryLimit = 0
 
+[Params.seo.robots]
+  ai-summary-limit = "nosnippet"
+  noindex = true
+  nofollow = true
+
+[Params.seo.GoogleBot]
+  noindex = true
+  ai-summary-limit = 0
 
 [Params.author]
   name = "Some Person"
@@ -66,6 +76,7 @@ enableGitInfo = true
   github = "username"
   twitter = "username"
   linkedin = "in/username" # company/username
+
 
 [markup.highlight]
   noClasses = false

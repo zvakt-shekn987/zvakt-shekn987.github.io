@@ -2,6 +2,11 @@
 title: About
 subtitle: Theme credits and information
 comments: false
+seo:
+  robots:
+    ai-summary-limit: 0
+  GoogleBot:
+    noindex: true
 ---
 
 Beautiful Hugo is a Hugo theme adapted from [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) by [Dean Attali](https://deanattali.com).
