@@ -1,5 +1,5 @@
 # This gets overridden when building for production
-baseurl = "http://localhost:1313/"
+baseurl = "https://zvakt-shekn987.github.io/"
 DefaultContentLanguage = "en"
 title = "zꞵāktšēkn"
 theme = "beautifulhugo"
