@@ -45,7 +45,7 @@ ignoreFiles = ["content/archive/.*"]
     provider = "fuse"
 
 [[Params.bigimg]]
-  src = "/static/img/jiphyonjon.jpg"
+  src = "/img/jiphyonjon.jpg"
   desc = "Image courtesy of https://contents.history.go.kr"
 
 [Params.AISearchSummary.Googlebot]
