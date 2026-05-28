@@ -9,7 +9,7 @@ seo:
     noindex: true
 ---
 
-Welcome to the Github Pages of zꞵāktšēkn, a repository on various linguistics (including conlanging) projects for the whole world to see.
+Welcome to the Github Pages of zꞵāktšēkn, a pavillion showcasing various linguistics  (including conlanging) projects for the whole world to see.
 
 This site is built on Beautiful Hugo. Beautiful Hugo is a Hugo theme adapted from [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) by [Dean Attali](https://deanattali.com). It builds on [Bootstrap 5](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/), [KaTeX](https://katex.org/), [PhotoSwipe](https://photoswipe.com/), [Highlight.js](https://highlightjs.org/), and [Mermaid](https://mermaid.js.org/).
 
