@@ -2,6 +2,7 @@
 title: Math & Diagrams
 subtitle: KaTeX, MathJax, and Mermaid for math and diagrams
 comments: false
+draft: true
 ---
 
 Beautiful Hugo includes built-in support for **KaTeX**, **MathJax**, and **Mermaid** (diagrams and flowcharts). All are loaded automatically — no extra configuration needed.

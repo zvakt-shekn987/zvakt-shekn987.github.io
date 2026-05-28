@@ -2,6 +2,7 @@
 title: Pages & Layouts
 subtitle: Page kinds, templates, layout options, and how to create each type of page
 comments: false
+draft: true
 ---
 
 Beautiful Hugo uses Hugo's standard template resolution, with a few custom layout options. This page explains every kind of page the theme can produce and how to create each one.
@@ -76,6 +77,7 @@ Pages under `content/page/` have type `page`. They use the same `single.html` te
 title: "About"
 subtitle: "About this site"
 comments: false
+draft: true
 ---
 ```
 

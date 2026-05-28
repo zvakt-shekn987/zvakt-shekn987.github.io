@@ -2,6 +2,7 @@
 title: Code Blocks
 subtitle: Syntax highlighting, line numbers, and the copy button
 comments: false
+draft: true
 ---
 
 Beautiful Hugo supports two syntax highlighting engines: Hugo's built-in **Chroma** (default) and client-side **Highlight.js**. This page demonstrates Chroma, which is fast and built when the page renders.

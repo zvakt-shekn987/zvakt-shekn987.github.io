@@ -5,6 +5,7 @@ date: 2026-05-11
 categories: ["announcement"]
 tags: ["announcement", "hugo", "theme"]
 comments: false
+draft: true
 ---
 
 Welcome to the Beautiful Hugo example site. This theme provides everything you need to build a clean, responsive website with Hugo.

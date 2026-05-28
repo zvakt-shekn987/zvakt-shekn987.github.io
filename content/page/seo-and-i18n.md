@@ -2,6 +2,7 @@
 title: SEO & i18n
 subtitle: Structured data, Open Graph, Twitter cards, and multilingual support
 comments: false
+draft: true
 ---
 
 Beautiful Hugo includes comprehensive SEO support (schema.org, Open Graph, Twitter Cards) and full multilingual capabilities via Hugo's i18n system.

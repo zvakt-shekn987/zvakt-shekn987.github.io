@@ -2,6 +2,7 @@
 title: Shortcodes
 subtitle: Built-in shortcodes with live examples
 comments: false
+draft: true
 ---
 
 Beautiful Hugo ships with several shortcodes for common patterns like collapsible sections, multi-column layouts, tabbed content, image galleries, and diagrams.

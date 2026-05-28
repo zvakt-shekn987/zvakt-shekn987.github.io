@@ -1,7 +1,7 @@
 # This gets overridden when building for production
 baseurl = "http://localhost:1313/"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "zꞵāktšēkn"
 theme = "beautifulhugo"
 enableGitInfo = true
 timeZone = "UTC"
@@ -21,9 +21,9 @@ ignoreFiles = ["content/archive/.*"]
   tag = "tags"
 
 [Params]
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Pavillon des langues"
   mainSections = ["post", "recipe"]
-  logo = "/img/avatar-icon.png" # Expecting square dimensions
+  logo = "/img/ushtras.jpg" # Expecting square dimensions
   favicon = "/img/favicon.ico"
   dateFormat = "2006.02.01"
   commit = false
@@ -45,15 +45,8 @@ ignoreFiles = ["content/archive/.*"]
     provider = "fuse"
 
 [[Params.bigimg]]
-  src = "/img/triangle.jpg"
-  desc = "Triangle"
-[[Params.bigimg]]
-  src = "/img/sphere.jpg"
-  desc = "Sphere"
-  position = "center top"
-[[Params.bigimg]]
-  src = "/img/hexagon.jpg"
-  desc = "Hexagon"
+  src = "/img/jiphyonjon.jpg"
+  desc = "Image courtesy of https://contents.history.go.kr"
 
 [Params.AISearchSummary.Googlebot]
   summaryLimit = 0
@@ -70,13 +63,12 @@ ignoreFiles = ["content/archive/.*"]
   ai-summary-limit = 0
 
 [Params.author]
-  name = "Some Person"
+  name = "Nennius Nescius"
   website = "yourwebsite.com"
   email = "youremail@domain.com"
   github = "username"
   twitter = "username"
   linkedin = "in/username" # company/username
-
 
 [markup.highlight]
   noClasses = false
@@ -86,76 +78,6 @@ ignoreFiles = ["content/archive/.*"]
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[[menu.main]]
-    identifier = "setup"
-    name = "Setup"
-    weight = 1
-
-[[menu.main]]
-    parent = "setup"
-    name = "Configuration"
-    url = "page/configuration/"
-    weight = 1
-
-[[menu.main]]
-    parent = "setup"
-    name = "Pages & Layouts"
-    url = "page/pages-and-layouts/"
-    weight = 2
-
-[[menu.main]]
-    parent = "setup"
-    name = "Theming"
-    url = "page/theming/"
-    weight = 3
-
-[[menu.main]]
-    parent = "setup"
-    name = "SEO & i18n"
-    url = "page/seo-and-i18n/"
-    weight = 4
-
-[[menu.main]]
-    parent = "setup"
-    name = "Comments & Social"
-    url = "page/comments-and-social/"
-    weight = 5
-
-[[menu.main]]
-    identifier = "features"
-    name = "Features"
-    weight = 2
-
-[[menu.main]]
-    parent = "features"
-    name = "Shortcodes"
-    url = "page/shortcodes/"
-    weight = 1
-
-[[menu.main]]
-    parent = "features"
-    name = "Code Blocks"
-    url = "page/code-blocks/"
-    weight = 2
-
-[[menu.main]]
-    parent = "features"
-    name = "Markdown Extensions"
-    url = "page/markdown-extensions/"
-    weight = 3
-
-[[menu.main]]
-    parent = "features"
-    name = "Figures & Galleries"
-    url = "page/figures-and-galleries/"
-    weight = 4
-
-[[menu.main]]
-    parent = "features"
-    name = "Math & Diagrams"
-    url = "page/math-and-diagrams/"
-    weight = 5
 
 [[menu.main]]
     identifier = "blog"

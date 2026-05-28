@@ -2,6 +2,7 @@
 title: Configuration
 subtitle: Every setting Beautiful Hugo supports
 comments: false
+draft: true
 ---
 
 This page is a complete reference for every configuration option in Beautiful Hugo. All settings go in your site's `hugo.toml` (or `config.toml`/`config.yaml`).

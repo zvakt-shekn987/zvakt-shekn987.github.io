@@ -2,6 +2,7 @@
 title: Markdown Extensions
 subtitle: Utility classes and theme-dependent content
 comments: false
+draft: true
 ---
 
 Beautiful Hugo provides several CSS classes that extend standard Markdown with theme-dependent visibility and layout utilities. There are two ways to use them:

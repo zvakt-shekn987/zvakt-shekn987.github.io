@@ -2,6 +2,7 @@
 title: Figures & Galleries
 subtitle: Image display with PhotoSwipe lightbox integration
 comments: false
+draft: true
 ---
 
 Beautiful Hugo provides powerful image handling through the `beautifulfigure` shortcode and `gallery` shortcode, both integrated with PhotoSwipe 5 for full-screen lightbox viewing.

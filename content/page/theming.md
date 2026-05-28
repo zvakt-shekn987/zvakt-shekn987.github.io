@@ -2,6 +2,7 @@
 title: Theming
 subtitle: Customizing colors, dark mode overrides, and appearance
 comments: false
+draft: true
 ---
 
 Beautiful Hugo uses CSS custom properties for dark mode and provides several hooks for customizing the appearance without modifying theme files directly.

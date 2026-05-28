@@ -2,6 +2,7 @@
 title: Comments & Social
 subtitle: Comment systems, social sharing, GitHub buttons, and footer icons
 comments: false
+draft: true
 ---
 
 Beautiful Hugo supports five comment systems, social sharing buttons, GitHub repository buttons, and 42 social icon links in the footer.
