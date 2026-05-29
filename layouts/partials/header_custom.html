@@ -7,3 +7,7 @@ Or you can delete this file if you don't need it.
   <a class="btn btn-primary btn-lg" href="/get-started/">Get Started</a>
 </div>
 -->
+
+{{ with .Params.banner_source }}
+  <div class="secondary-banner" style="background-image:url('{{ . | relURL }}')"></div>
+{{ end }}

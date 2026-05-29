@@ -23,9 +23,9 @@ With Guillocheau's labels we have slightly less than two-thirds in (Latin transc
 <figure>
   <img src="chart2.png">
   <figcaption>What lies ahead (in word count):<br>
-    *blue*, Labelled<br>
-    *other colours*: Next 10 unlabelled texts<br>
-    *grey*: Rest of corpus.
+    <b>blue</b>, Labelled<br>
+    <b>other colours</b>: Next 10 unlabelled texts<br>
+    <b>grey</b>: Rest of corpus
   </figcaption>
 </figure>
 

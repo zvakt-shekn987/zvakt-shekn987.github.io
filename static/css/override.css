@@ -55,6 +55,19 @@ body.home {
 
 }
 
+.secondary-banner {
+    width: 100%;
+    height: 180px;              /* adjust as needed */
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0.35;              /* translucency */
+    filter: blur(0px);
+
+    position: relative;
+    z-index: 0;
+    margin-top: -10px;          /* tight stacking under main banner */
+}
 
 html[data-theme="dark"],
 body[data-theme="dark"],
