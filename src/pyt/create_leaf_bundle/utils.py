@@ -12,7 +12,7 @@ def create_leaf(post_name="new-post", timeformat1="%Y-%m-%d", timeformat2="%Y %m
     archetype = f"""---
 title: {post_name.replace('-', ' ')}
 subtitle: ""
-date: {time_str2}
+date: {time_str}
 draft: true
 author: ""
 description: ""
