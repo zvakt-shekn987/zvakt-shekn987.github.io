@@ -63,13 +63,14 @@
         {{ with $.Resources.GetMatch . }}
           <div class="secondary-banner"
               style="background-image:url('{{ .RelPermalink }}')">
-          </div>
-        {{ end }}
 
-        {{ with $.Params.banner_caption }}
-          <span class="secondary-banner-caption">
-            {{ . }}
-          </span>
+            {{ with $.Params.banner_caption }}
+              <span class="img-desc secondary-img-desc">
+                {{ . }}
+              </span>
+            {{ end }}
+
+          </div>
         {{ end }}
 
       {{ end }}

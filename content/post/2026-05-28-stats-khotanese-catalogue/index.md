@@ -5,7 +5,7 @@ date: 2026-05-28
 draft: false
 author: ""
 description: ""
-categories: ["Applied linguistics"]
+categories: ["historical linguistics"]
 tags: ["khotanese", "corpus"]
 bigimg: []
 comments: true

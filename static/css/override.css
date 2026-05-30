@@ -10,33 +10,6 @@ body.home {
         margin-bottom: 0 !important;
     }
 
-    .header-section,
-    .intro-header {
-        margin-top: 0 !important;
-        padding-top: 0 !important;
-    }
-
-    .navbar-custom,
-    .navbar-custom.top-nav-expanded,
-    .navbar-custom.top-nav-short {
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;
-
-        min-height: 50px !important;
-    }
-
-    .navbar-custom .navbar-brand {
-        padding-top: 14px !important;
-        padding-bottom: 14px !important;
-
-        line-height: 20px !important;
-    }
-
-    .navbar-custom .nav li a {
-        padding-top: 15px !important;
-        padding-bottom: 15px !important;
-    }
-
     .header-section {
         position: fixed;
         top: 50px;
@@ -53,11 +26,21 @@ body.home {
         min-height: 280px;
     }
 
+    .header-section,
+    .intro-header {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }    
+
 }
 
 .intro-header.no-img {
     padding-top: 0 !important;
     margin-top: 0 !important;
+}
+
+.intro-header.no-img .container {
+    padding-top: 120px;
 }
 
 .secondary-banner {
@@ -73,6 +56,20 @@ body.home {
     z-index: 0;
     margin-top: 0px; 
     margin-bottom: 10px; 
+}
+
+.secondary-banner-caption {
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+
+    padding: 4px 10px;
+
+    background: rgba(0, 0, 0, 0.35);
+    color: white;
+
+    font-size: 0.85rem;
+    border-radius: 4px;
 }
 
 html[data-theme="dark"],
